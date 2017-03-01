@@ -1,0 +1,58 @@
+
+{
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+body
+{
+	font-family: 1em Gotham;
+	padding: 1px;
+	margin: 5 auto;
+	background-color: #4682b4;
+}
+#menu
+{
+}	
+nav
+{
+	background: snow;
+	padding: 15px;
+	font-size:15px;
+	text-align: center;
+	
+}
+
+.pictext
+{
+	padding: 0;
+	margin: 0;
+	font-size: .75em;
+}
+
+h1
+{
+	color: mediumblue;
+	text-align: center;
+	font-family: Caslon;
+	background: linear-gradient(to bottom, lightgray, #4682b4);
+}
+
+h2
+{
+	padding-left: 35px;
+	font-family: Proxima Nova;
+}
+
+footer
+{
+	text-transform: uppercase;
+}
+
