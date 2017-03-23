@@ -1,69 +1,231 @@
-html, body, div, span, applet, object, iframe,
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video
-{
-  vertical-align: baseline;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: inherit;
-  border: 0 none;
-  outline: 0;
-  padding: 0;
-  margin: 0;
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
 
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*--------End Reset-----------*/
 
 body
 {
 	font-family: Gotham;
-	padding: 1px;
-	margin: 1px;
 	background-color: #4682b4;
 }
-#menu
-{
-}	
+
+	
 nav
 {
 	background: snow;
 	padding: 15px;
-	font-size:15px;
+	font-size: 15px;
 	text-align: center;
 	
 }
 
-.pictext
+img	
+{
+	display: block;
+	margin: 1em auto;
+	width: 60%;
+	height: auto;
+	border-radius: 1em;
+}
+
+.imgtext
 {
 	padding: 0;
 	margin: 0;
 	font-size: .75em;
+	text-align: center;
+	font-style: italic;
+}
+
+ul 	
+{
+	margin-left: 4vw;
+	font-size: 100%;
+	font-family: Helvetica, sans-serif;
+}
+
+.topheader
+{
+	color: mediumblue;
+	text-align: center;
+	background: linear-gradient(to bottom, snow, #4682b4);
+	padding: 4%;
 }
 
 h1
 {
-	color: mediumblue;
-	text-align: center;
+	font-size: 3em;
 	font-family: Caslon;
-	background: linear-gradient(to bottom, lightgray, #4682b4);
+	padding: 1%;
+
 }
 
 h2
 {
-	padding-left: 35px;
-	font-family: "Proxima Nova";
+	font-size: 2em;
+	padding: 1%;
 }
+
+h3
+{
+	font-size: 1.75em;
+	padding: 1%;
+}
+
+h4
+{
+	font-size: 1.5em;
+	padding: 1%;
+}
+
+h5
+{
+	font-size: 1.25em;
+	padding: 1%;
+}
+
+p
+{
+	font-family: 'Proxima Nova';
+	padding: 1%;
+}
+
 
 footer
 {
+	text-align: center;
 	text-transform: uppercase;
+	font-size: .65em;
+	padding-top: 10%;
 }
+
+#fixed
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#fixed h1, h2, h3, h4, h5 
+{
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 50px;
+		padding-right: 50px;
+}
+
+#fixed padding
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#fixed footer
+{
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+
